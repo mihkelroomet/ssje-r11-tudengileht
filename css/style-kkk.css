@@ -1,0 +1,11 @@
+body {
+    background-color: #15001c;
+    color: pink;
+    font-family: candara;
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    font-style: normal;
+}
