@@ -1,3 +1,4 @@
+// kuvab nupule vajutades kaarti  
 function näita_kaarti1(){
     let image = document.getElementById("kaart1");
  
@@ -5,7 +6,7 @@ function näita_kaarti1(){
             document.getElementById("btnID1")
             .style.display = "none";
 }
-    
+// kuvab nupule vajutades kaarti  
 function näita_kaarti2(){
     let image = document.getElementById("kaart2");
  
