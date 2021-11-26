@@ -37,3 +37,8 @@ p {
     background-color: white;
     overflow: hidden;
   }
+
+  .panel p {
+    max-width: 50%;
+    margin-left: 25%;
+  }
