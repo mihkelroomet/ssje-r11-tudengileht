@@ -1,5 +1,6 @@
 body{
     background: rgb(234, 234, 234);
+    text-align: center;
 }
 
 h3, h1{
@@ -9,4 +10,6 @@ h3, h1{
 p, li{
     color: rgb(37, 42, 52);
 }
-
+img{
+    width: 60px
+}
