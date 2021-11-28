@@ -1,0 +1,11 @@
+.leht {
+    display: block;
+    color: white;
+    background-color: royalblue;
+    z-index: 1;
+    padding: 2em;
+    margin: -2em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+  
