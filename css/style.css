@@ -1,7 +1,21 @@
 body {
     text-align: center;
+    font-family: arial;
+    line-height: 1.6;
 }
 
 p {
     font-style: normal;
+    color: #6b6b6b;
+}
+
+/* a p on siin lisatud, et materjalid.html lehe allosas ikoonidega lingid näeksid ka välja nagu teised lingid (muidu oleksid nad tumehallid, sest seal lehel custom p stiil) */
+a, a p {
+    text-decoration: none;
+    color: #1976d2;
+}
+
+a:hover, a p:hover {
+    text-decoration: underline;
+    color: #7daae1;
 }
