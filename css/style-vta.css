@@ -1,27 +1,26 @@
 body {
   background-color: rgb(185, 215, 233);
   text-align: justify;
-  margin-right: 150px;
-  margin-left: 120px;
+  margin-right: 8%;
+  margin-left: 8%;
   line-height: 1.5;
 }
 
 h1 {
-  color: rgb(0, 0, 0);
-  font-family: arial;
   font-size: 300%;
   text-align: center;
 }
 
 h2 {
-    color:black;
-    font-family: arial;
     font-size: 160%;
-    
 }
 
 p {
-  color: rgb(0, 0, 0);
-  font-family: arial;
-  font-size: 100%;
+    color: rgb(31, 31, 31);
+    font-size: 100%;
+}
+
+/* siin vajalik, sest selle lehe joondus on justify */
+#logo {
+    text-align: center;
 }

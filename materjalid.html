@@ -2,7 +2,7 @@
 <html lang="et">
 <head>
     <meta charset="UTF-8">
-    <title>Kasulikud materjalid ülikooliks</title>
+    <title>Kasulikud materjalid ülikooliks - Tudengileht</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-materjalid.css">
 </head>
@@ -10,40 +10,59 @@
     <a href="index.html"><img src="img/logo.png" alt="Tudengileht"></a><br>
 
     <h1>KASULIKUD MATERJALID ÜLIKOOLIKS</h1>
-    <br>
+    
     <h3 id = 'matemaatika'>MATEMAATIKA</h3>
-    <p>Parim kalkulaator matemaatikaks: <a href = 'https://www.wolframalpha.com/'>WolframAlpha</a></p>
+    <a href = 'https://www.wolframalpha.com/'>WolframAlpha</a>
+    <p>Parim kalkulaator matemaatikaks</p>
     <p>Kalkulaator on võimeline tegelema nii integraalide kui muude kurjade võrranditega, mis sulle probleeme võiksid tekitada. <br> Kindlasti soovitame ka proovida tasulist versiooni, kus on veelgi paremini välja toodud step-by-step lahenduskäigud.</p>
     <br>
-    <p>Youtuberid: <a href='https://www.youtube.com/channel/UCEWpbFLzoYGPfuWUMFPSaoA'>The Organic Chemistry Tutor</a></p>
+    <a href='https://www.youtube.com/channel/UCEWpbFLzoYGPfuWUMFPSaoA'>The Organic Chemistry Tutor</a>
+    <p>Youtuber</p>
     <p>Kuigi kanali nimeks on 'The Organic Chemistry Tutor', on tal ka väga head selgitused erinevatele just Kõrgem Matemaatika I teemadele ning kindlasti on temast palju abi nii mõnelegi teisele. :))</p>
-    <br>
+    
     <h3 id = 'aar'>AAR</h3>
-    <p>Binary ja decimal kalkulaator <a href='https://www.rapidtables.com/convert/number/binary-to-decimal.html'>RapidTables kalkulaator</a></p>
+    <a href='https://www.rapidtables.com/convert/number/binary-to-decimal.html'>RapidTables kalkulaator</a>
+    <p>Binary ja decimal kalkulaator</p>
     <p>See lehekülg tuleb kindlasti kasuks just ASCII koodi teemadel ning üldsegi kiirel kahendkoodist kümnendkoodi arvutamisel.</p>
-    <br>
+    
     <h3 id= 'muusika'>MUUSIKA</h3>
     <button type = 'button' id='nimekiri' onclick='tekstivahetus()'>Vajuta siia, et näha erinevaid playliste</button>
     
-    <ul id="ullist" style = "display: none">
-        <li>Kommikad -house(/techno) <a href="https://open.spotify.com/playlist/37i9dQZF1DX6J5NfMJS675?si=090420d01bab4f26">Spotifys</a></li>
-        <li>Lofi Beats <a href="https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn?si=f4f7aa78e6564b5f">Spotifys</a></li>
-        <li>Üldine mood-booster <a href="https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0?si=ff6fadb4de494934">Spotifys</a></li>
-        <li>Vanem Eesti muusika <a href="https://youtube.com/playlist?list=PLzWuchak8uDs3bXMMoDihAMrwssrDEjcE">Youtube'is</a></li>
-        <li>Eesti muusika erinevad ajastud <a href="https://open.spotify.com/playlist/6ELySMFP7PlbAsyD3SkUuH?si=99a52744029c44e4">Spotifys</a></li>
-    </ul>
-    <br>
+    <!-- konteinerid on selleks, et saaks nimekirja kõigepealt joondada vasakule ja siis tõsta selle nimekirja oma suurusele vastavalt lehe keskele -->
+    <div class="list-outer-container">
+        <div class="list-inner-container">
+            <ul id="ullist" style = "display: none">
+                <li>Kommikad -house(/techno) <a href="https://open.spotify.com/playlist/37i9dQZF1DX6J5NfMJS675?si=090420d01bab4f26">Spotifys</a></li>
+                <li>Lofi Beats <a href="https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn?si=f4f7aa78e6564b5f">Spotifys</a></li>
+                <li>Üldine mood-booster <a href="https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0?si=ff6fadb4de494934">Spotifys</a></li>
+                <li>Vanem Eesti muusika <a href="https://youtube.com/playlist?list=PLzWuchak8uDs3bXMMoDihAMrwssrDEjcE">Youtube'is</a></li>
+                <li>Eesti muusika erinevad ajastud <a href="https://open.spotify.com/playlist/6ELySMFP7PlbAsyD3SkUuH?si=99a52744029c44e4">Spotifys</a></li>
+            </ul>
+        </div>
+    </div>
 
     <h3>Üldiselt kasulikud ja huvitavad materjalid ja allikad</h3>
-    <p>Youtuber Veritasium <a href='https://www.youtube.com/c/veritasium'><img class="pilt" src="https://yt3.ggpht.com/ytc/AKedOLQc01e109GiUGTWt6ALCJ6fEs-q8542L87r9E31VQ=s900-c-k-c0x00ffffff-no-rj" alt="Veritasiumi Youtube'i kanali pilt"></a></p>
+    <a href='https://www.youtube.com/c/veritasium'>
+        <img class="pilt" src="https://yt3.ggpht.com/ytc/AKedOLQc01e109GiUGTWt6ALCJ6fEs-q8542L87r9E31VQ=s900-c-k-c0x00ffffff-no-rj" alt="Veritasiumi Youtube'i kanali pilt">
+        <p>Veritasium</p>
+    </a>
+    <p>Youtuber</p>
     <p>Huvitvad teaduseteemalised videod, väga hariv ja hea ajaviide.</p>
     <br>
-    <p>Youtube'i kanal Vox <a href="https://www.youtube.com/c/Vox"><img class="pilt" src="https://yt3.ggpht.com/ytc/AKedOLTm7P51YEeoapoU-FYmc8v7YfBeHZpbX8CfPCmxAg=s900-c-k-c0x00ffffff-no-rj" alt="Voxi Youtube'i kanali pilt"></a></p>
+    <a href="https://www.youtube.com/c/Vox">
+        <img class="pilt" src="https://yt3.ggpht.com/ytc/AKedOLTm7P51YEeoapoU-FYmc8v7YfBeHZpbX8CfPCmxAg=s900-c-k-c0x00ffffff-no-rj" alt="Voxi Youtube'i kanali pilt">
+        <p>Vox</p>
+    </a>
+    <p>Youtube'i kanal</p>
     <p>Veidi sarnane Veritasiumi kanalile. Teemad on vägagi aktuaalsed ning annavad ehk uue vaatenurga asjadele.</p>
     <br>
-    <p>TED-Ed <a href="https://www.youtube.com/teded"><img class="pilt" src = "https://ed.ted.com/teded-logo-600-600.png" alt="TED-Ed'i Youtube'i kanali pilt"></a></p>
+    <a href="https://www.youtube.com/teded">
+        <img class="pilt" src = "https://ed.ted.com/teded-logo-600-600.png" alt="TED-Ed'i Youtube'i kanali pilt">
+        <p>TED-Ed</p>
+    </a>
     <p>Me kõik ju teame neid maailmakuulsaid TED-talke kuid kas sa teadsid, et neil on ka spetsiaalne hariduslik kanal. <br> Väga hariduslikud videod laheda koomiksi-stiilis väljanägemisega.</p>
-    <script src="js/script-materjalid.js"></script>
+
+<script src="js/script-materjalid.js"></script>
 </body>
 
 </html>

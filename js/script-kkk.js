@@ -1,14 +1,14 @@
-var acd = document.getElementsByClassName("accordion");
+var ac = document.getElementsByClassName("accordion");
 var i;
 
-for (i = 0; i < acd.length; i++) {
-  acd[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var alumine = this.nextElementSibling;
-    if (alumine.style.display === "block") {
-      alumine.style.display = "none";
+// accordion-elemendile klikkimisel muudetakse küsimuse vastus nähtavaks, kui ta ei ole nähtav ja vastupidi
+for (i = 0; i < ac.length; i++) {
+  ac[i].addEventListener("click", function() {
+    var vastus = this.nextElementSibling;
+    if (vastus.style.display === "block") {
+      vastus.style.display = "none";
     } else {
-      alumine.style.display = "block";
+      vastus.style.display = "block";
     }
   });
 }

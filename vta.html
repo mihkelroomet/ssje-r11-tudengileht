@@ -2,11 +2,16 @@
 <html lang="et">
 <head>
     <meta charset="UTF-8">
-    <title>Vaese tudengi abiraamat</title>
+    <title>Vaese tudengi abiraamat -Tudengileht</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-vta.css">
 </head>
 <body>
+    <!-- pilt div sees, et teda saaks centerdada -->
+    <div id="logo">
+        <a href="index.html"><img src="img/logo.png" alt="Tudengileht"></a><br>
+    </div>
+
     <h1>Vaese tudengi abiraamat</h1>
     <h2>Realiseerimis- ja realisatsioonikeskused</h2>
     <p>Tegelevad pankrotivara ja laojääkide ostu ja müügiga. Pakuvad klientidele tavapoodidest odavamas 
@@ -22,7 +27,8 @@
     <img id="kaart1" src=""/>
     <button type = "button" onclick="näita_kaarti1()" id="btnID1">Kaardil kuvamiseks vajuta siia </button>
 
-    <h2>Prügisukeldumine</h2>
+    <!-- id vajalik, et siia linkida KKK lehelt -->
+    <h2 id="Prügisukeldumine">Prügisukeldumine</h2>
     <p>
         Kui oled kokkuhoidlikkuse nimel valmis ka sõna otseses mõttes käsi (ja ilmselt muudki) mustaks tegema, siis 
         on üheks võimaluseks prügisukeldumine ehk linnakorilus. Prügisukeldumine on 
@@ -75,6 +81,7 @@
         ka veebipõhises tellimiskeskkonnas eKaupmees.
         Rohkem infot <a href=https://www.kaupmees.ee/ target="_blank">siit</a>.
     </p>
+
 <script src="js/script-vta.js"></script>
 </body>
 </html>

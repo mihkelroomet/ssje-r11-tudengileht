@@ -15,30 +15,45 @@ p {
     margin: 30px;
 }
 
+/* accordion - küsimusristkülikud */
 .accordion {
     background-color: white;
-    color: #444;
+    color: #6b6b6b;
     cursor: pointer;
     padding: 18px;
     width: 50%;
-    border: 1px solid rgb(93, 93, 255);
+    border: 2px solid #0daedf;
     text-align: left;
     outline: none;
-    font-size: 15px;
-  }
+    font-size: 18px;
+}
   
-  .active, .accordion:hover {
+.accordion:hover {
     font-weight: bold;
-  }
-  
-  .panel {
+    color: #2e66a4
+}
+
+.vastus {
     padding: 0 18px;
     display: none;
     background-color: white;
     overflow: hidden;
-  }
+}
 
-  .panel p {
+.vastus p {
     max-width: 50%;
     margin-left: 25%;
-  }
+    text-align: justify;
+}
+
+/* väiksema ekraani puhul võib äärtele lähemale minna */
+@media (max-width:1000px) {
+    .accordion {
+        width: 90%;
+    }
+
+    .vastus p {
+        max-width: 90%;
+        margin-left: 5%;
+    }
+}
